@@ -54,5 +54,13 @@ for (let p = 0; p < teachers.length; p++) {
   }
 }
 
-// 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+// 5. Unisci tutti gli insegnanti nell'array teachers in una stringa separata da virgole e salvala nella variabile teachersString
+let teachersString = "";
+
+for (s = 0; s < teachers.length; s++) {
+
+    teachersString += teachers[s] + ',';
+
+}
+
+console.log(teachersString);
